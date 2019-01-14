@@ -1,0 +1,14 @@
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\bin\Debug\CrashReport.dll.config
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\bin\Debug\CrashReport.dll
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\bin\Debug\CrashReport.pdb
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\obj\Debug\CrashReport.csprojAssemblyReference.cache
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\obj\Debug\CrashReport.csproj.CoreCompileInputs.cache
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\obj\Debug\CrashReport.dll
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\obj\Debug\CrashReport.pdb
+C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\bin\Debug\CrashReport.dll.config
+C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\bin\Debug\CrashReport.dll
+C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\bin\Debug\CrashReport.pdb
+C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\obj\Debug\CrashReport.csproj.CoreCompileInputs.cache
+C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\obj\Debug\CrashReport.dll
+C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\obj\Debug\CrashReport.pdb
+C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\obj\Debug\CrashReport.csprojAssemblyReference.cache

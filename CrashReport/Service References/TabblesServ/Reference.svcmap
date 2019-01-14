@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7cb5813d-ada7-44c0-b73e-72d84760f270" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TabblesServ.xsd" MetadataType="Schema" ID="682a830d-c375-4eb4-b245-134509041785" SourceId="1" SourceUrl="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?xsd=xsd1" />
+    <MetadataFile FileName="TabblesServ1.xsd" MetadataType="Schema" ID="042a68dd-ed61-4041-b929-49ea2aea9039" SourceId="1" SourceUrl="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?xsd=xsd2" />
+    <MetadataFile FileName="TabblesServ.disco" MetadataType="Disco" ID="aef3f532-a118-48e3-9460-b1ea042d784e" SourceId="1" SourceUrl="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?disco" />
+    <MetadataFile FileName="TabblesService.wsdl" MetadataType="Wsdl" ID="ebacd0ce-eeb6-4aec-a4cb-6e213dd85a22" SourceId="1" SourceUrl="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?wsdl" />
+    <MetadataFile FileName="TabblesServ2.xsd" MetadataType="Schema" ID="71aef38e-6254-4f2d-bedf-beba42ae3aa2" SourceId="1" SourceUrl="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

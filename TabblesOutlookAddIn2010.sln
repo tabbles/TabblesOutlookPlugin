@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabbles.OutlookAddIn.Common", "Tabbles.OutlookAddIn.Common\Tabbles.OutlookAddIn.Common.csproj", "{0C4C8BAF-6F6A-4004-AB5F-5AEA56DDE9DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabbles.OutlookPlugIn", "Tabbles.OutlookPlugIn\Tabbles.OutlookPlugIn.csproj", "{7CD054CF-D039-4C7E-A2E5-9E833BBF0D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabbles.OutlookAddIn2010", "Tabbles.OutlookAddIn\Tabbles.OutlookAddIn2010.csproj", "{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C4C8BAF-6F6A-4004-AB5F-5AEA56DDE9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4C8BAF-6F6A-4004-AB5F-5AEA56DDE9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4C8BAF-6F6A-4004-AB5F-5AEA56DDE9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4C8BAF-6F6A-4004-AB5F-5AEA56DDE9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD054CF-D039-4C7E-A2E5-9E833BBF0D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD054CF-D039-4C7E-A2E5-9E833BBF0D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD054CF-D039-4C7E-A2E5-9E833BBF0D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD054CF-D039-4C7E-A2E5-9E833BBF0D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

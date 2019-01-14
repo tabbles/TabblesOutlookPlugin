@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TabblesService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/UpdatesWebService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITabblesService_GetTabbles4NewVersionData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTabbles4NewVersionData" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_GetTabbles4NewVersionData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTabbles4NewVersionDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_GetTabbles4CloudSqlServerData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTabbles4CloudSqlServerData" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_GetTabbles4CloudSqlServerData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTabbles4CloudSqlServerDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_GetYellowBlueSoftServer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetYellowBlueSoftServer" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_GetYellowBlueSoftServer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetYellowBlueSoftServerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_GetNewVersionData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewVersionData" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_GetNewVersionData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNewVersionDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_SendCrashEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendCrashEmail" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_SendCrashEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendCrashEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_SendEmail_InputMessage">
+    <wsdl:part name="parameters" element="tns:SendEmail" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_SendEmail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SendEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_writeReportToDb_InputMessage">
+    <wsdl:part name="parameters" element="tns:writeReportToDb" />
+  </wsdl:message>
+  <wsdl:message name="ITabblesService_writeReportToDb_OutputMessage">
+    <wsdl:part name="parameters" element="tns:writeReportToDbResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITabblesService">
+    <wsdl:operation name="GetTabbles4NewVersionData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITabblesService/GetTabbles4NewVersionData" message="tns:ITabblesService_GetTabbles4NewVersionData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITabblesService/GetTabbles4NewVersionDataResponse" message="tns:ITabblesService_GetTabbles4NewVersionData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTabbles4CloudSqlServerData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITabblesService/GetTabbles4CloudSqlServerData" message="tns:ITabblesService_GetTabbles4CloudSqlServerData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITabblesService/GetTabbles4CloudSqlServerDataResponse" message="tns:ITabblesService_GetTabbles4CloudSqlServerData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetYellowBlueSoftServer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITabblesService/GetYellowBlueSoftServer" message="tns:ITabblesService_GetYellowBlueSoftServer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITabblesService/GetYellowBlueSoftServerResponse" message="tns:ITabblesService_GetYellowBlueSoftServer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNewVersionData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITabblesService/GetNewVersionData" message="tns:ITabblesService_GetNewVersionData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITabblesService/GetNewVersionDataResponse" message="tns:ITabblesService_GetNewVersionData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendCrashEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITabblesService/SendCrashEmail" message="tns:ITabblesService_SendCrashEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITabblesService/SendCrashEmailResponse" message="tns:ITabblesService_SendCrashEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITabblesService/SendEmail" message="tns:ITabblesService_SendEmail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITabblesService/SendEmailResponse" message="tns:ITabblesService_SendEmail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="writeReportToDb">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITabblesService/writeReportToDb" message="tns:ITabblesService_writeReportToDb_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITabblesService/writeReportToDbResponse" message="tns:ITabblesService_writeReportToDb_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITabblesService" type="tns:ITabblesService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTabbles4NewVersionData">
+      <soap:operation soapAction="http://tempuri.org/ITabblesService/GetTabbles4NewVersionData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabbles4CloudSqlServerData">
+      <soap:operation soapAction="http://tempuri.org/ITabblesService/GetTabbles4CloudSqlServerData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYellowBlueSoftServer">
+      <soap:operation soapAction="http://tempuri.org/ITabblesService/GetYellowBlueSoftServer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNewVersionData">
+      <soap:operation soapAction="http://tempuri.org/ITabblesService/GetNewVersionData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendCrashEmail">
+      <soap:operation soapAction="http://tempuri.org/ITabblesService/SendCrashEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendEmail">
+      <soap:operation soapAction="http://tempuri.org/ITabblesService/SendEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="writeReportToDb">
+      <soap:operation soapAction="http://tempuri.org/ITabblesService/writeReportToDb" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TabblesService">
+    <wsdl:port name="BasicHttpBinding_ITabblesService" binding="tns:BasicHttpBinding_ITabblesService">
+      <soap:address location="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

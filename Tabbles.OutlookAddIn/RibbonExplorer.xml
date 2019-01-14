@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui"
+          onLoad="Ribbon_Load" loadImage="OnLoadImage">
+  <ribbon>
+    <tabs>
+      
+      <tab id="tab1"  getLabel="getLabelTabTitle" >
+        <group id="group1" getLabel="getLabelTabTitle">
+          <button id="tagUsingTabblesButton" size="large" getLabel="GetLabel" onAction="OnAction" image="tag_using_tabbles" />
+          <button id="openInTabblesButton" size="large" getLabel="GetLabel" onAction="OnAction" image="open_in_tabbles" />
+          <button id="tabblesSearchButton" size="large" getLabel="GetLabel" onAction="OnAction" image="search" />
+          <button id="syncWithTabblesButton" size="large" getLabel="GetLabel" onAction="OnAction" image="sync_with_tabbles" />
+          
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+  <contextMenus>
+    <contextMenu idMso="ContextMenuMailItem">
+      <menuSeparator id="tabblesMenuSingleSeparator" />
+      <button id="tagUsingTabblesMenuSingle"  getLabel="GetLabel" onAction="OnAction" image="tag_using_tabbles_small" />
+      <button id="openInTabblesMenu"  getLabel="GetLabel" onAction="OnAction" image="open_in_tabbles_small" />
+      <!--
+      -->
+      <!--<menu id="tabblesMenu" label="Tabbles">-->
+        <!--<button id="testButton" label="Tabbles test"/>-->
+        
+      <!--</menu>-->
+    </contextMenu>
+    <contextMenu idMso="ContextMenuMultipleItems">
+      <menuSeparator id="tabblesMenuMultipleSeparator" />
+      <button id="tagUsingTabblesMenuMultiple" getLabel="GetLabel" onAction="OnAction" image="tag_using_tabbles_small" />
+    </contextMenu>
+  </contextMenus>
+</customUI>
+

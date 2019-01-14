@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>CrashReportFsharp</name></assembly>
+<members>
+<member name="M:CrashReportFsharp.createPipeServerSafeForExternalProcesses(System.String,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.Unit},System.String)">
+ <summary>
+ Creates a pipe server in 3 different ways. If one or more ways fails, it sends a silent crash report.
+ </summary>
+ <param name="logError"></param>
+ <param name="pipeName"></param>
+</member>
+<member name="M:CrashReportFsharp.scramble_string2(System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="logError">funzione che stampa nel log una stringa, utile in caso fallisca la stessa sendSilentCrash</param>
+ <param name="testo"></param>
+</member>
+<member name="M:CrashReportFsharp.execInThreadForceNewThreadDur(System.Boolean,Microsoft.FSharp.Core.FSharpFunc{System.String,Microsoft.FSharp.Core.Unit},Microsoft.FSharp.Core.FSharpFunc{Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit})">
+ <summary>
+ 
+ </summary>
+ <param name="logError">La funzione che stampa nel log. serve ad accorgersi di errori interni di execInThreadForceNewThreadDur</param>
+ <param name="f"></param>
+</member>
+</members>
+</doc>

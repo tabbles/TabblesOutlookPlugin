@@ -1,0 +1,16 @@
+﻿<Window  x:Class="Tabbles.OutlookAddIn.progress"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         TextOptions.TextFormattingMode="Display"
+         
+         Width="400"
+    Title="Operation progress" SizeToContent="Height" ResizeMode="NoResize">
+
+    <StackPanel  >
+        <TextBlock TextWrapping="Wrap" Name="lbl1" Padding="0,10" Margin="8,0,8,0" Text="Operation progressprogressprogres sprogresspro gressprogressprogresspr ogressprogress"></TextBlock>
+        <ProgressBar  HorizontalAlignment="Stretch" Height="20" Name="pb1" Margin="8,0,8,0"></ProgressBar>
+        <Button  Margin="8,12" HorizontalAlignment="Right" Padding="8,4" Name="btn_cancel" >
+            <TextBlock Text="Cancel"></TextBlock>
+        </Button>
+    </StackPanel>
+</Window>

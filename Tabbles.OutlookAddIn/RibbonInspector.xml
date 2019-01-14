@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+
+      <!--<tab idMso="TabNewMailMessage">
+        <group idMso="GroupIncludeMainTab" visible="false"/>
+      </tab>-->
+      
+      
+      <!--<tab idMso="TabNewMailMessage">
+        
+        <group id="GroupInclude" label ="Include" insertBeforeMso="GroupMessageOptions">
+          <gallery idMso ="AttachFileSplit"  visible="false" size ="large" />
+          
+          <gallery id="AttchmentInsertMenu"
+                   size="large"
+                   imageMso="AttachFileSplit"
+                   getItemCount ="GetItemCount"
+                   getItemImage="GetImage"
+                   getItemLabel="GetLabel"
+                   onAction="OnAddAttahmentClicked"
+                   label="Attach File2"
+                   itemWidth="32"
+                   itemHeight="32"
+                   columns="1"
+            >
+            <button idMso="OneDriveShortcut" />
+            <button idMso="BrowseToAttach" />
+          </gallery>
+          <menu idMso="AttachItemCombo" size="large"/>
+          <menu idMso="SignatureInsertMenu" size="large">
+          </menu>
+        </group>
+      </tab>-->
+
+      <tab id="tab1" getLabel="GetLabelTabTitle">
+        <group id="group1" getLabel="getLabelTabTitle">
+          <button id="tagUsingTabblesButtonSingleMail" size="large" getLabel="GetLabel" onAction="OnAction" image="tag_using_tabbles" />
+          <button id="openInTabblesButtonSingleMail" size="large" getLabel="GetLabel" onAction="OnAction" image="open_in_tabbles" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+

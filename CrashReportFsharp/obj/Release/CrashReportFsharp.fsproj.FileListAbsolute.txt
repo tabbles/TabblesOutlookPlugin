@@ -1,0 +1,11 @@
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\bin\Release\CrashReportFsharp.XML
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\bin\Release\CrashReportFsharp.dll
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\bin\Release\CrashReportFsharp.pdb
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\bin\Release\CrashReport.dll
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\bin\Release\FSharp.Core.dll
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\bin\Release\CrashReport.pdb
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\bin\Release\CrashReport.dll.config
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\obj\Release\CrashReportFsharp.fsprojAssemblyReference.cache
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\obj\Release\CrashReportFsharp.fsproj.CopyComplete
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\obj\Release\CrashReportFsharp.dll
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReportFsharp\obj\Release\CrashReportFsharp.pdb

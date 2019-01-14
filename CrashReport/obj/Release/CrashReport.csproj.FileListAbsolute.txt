@@ -1,0 +1,7 @@
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\bin\Release\CrashReport.dll.config
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\bin\Release\CrashReport.dll
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\bin\Release\CrashReport.pdb
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\obj\Release\CrashReport.csprojAssemblyReference.cache
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\obj\Release\CrashReport.csproj.CoreCompileInputs.cache
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\obj\Release\CrashReport.dll
+C:\Users\bario\Desktop\tabbles_outlook_addin_OS\CrashReport\obj\Release\CrashReport.pdb

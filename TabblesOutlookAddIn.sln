@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookAddIn", "Tabbles.OutlookAddIn\OutlookAddIn.csproj", "{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashReport", "CrashReport\CrashReport.csproj", "{D489947C-DA48-48B8-9BB0-AD1673DFF417}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CrashReportFsharp", "CrashReportFsharp\CrashReportFsharp.fsproj", "{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		tabblesDebug|Any CPU = tabblesDebug|Any CPU
+		TabblesRelease|Any CPU = TabblesRelease|Any CPU
+		TestandoWcf|Any CPU = TestandoWcf|Any CPU
+		testandoWcfAsync|Any CPU = testandoWcfAsync|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.tabblesDebug|Any CPU.ActiveCfg = TabblesRelease|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.tabblesDebug|Any CPU.Build.0 = TabblesRelease|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.TabblesRelease|Any CPU.ActiveCfg = TabblesRelease|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.TabblesRelease|Any CPU.Build.0 = TabblesRelease|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.TestandoWcf|Any CPU.ActiveCfg = TabblesRelease|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.TestandoWcf|Any CPU.Build.0 = TabblesRelease|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.testandoWcfAsync|Any CPU.ActiveCfg = TabblesRelease|Any CPU
+		{1BBE2734-E6E2-4D9F-9FBC-1AE50F962044}.testandoWcfAsync|Any CPU.Build.0 = TabblesRelease|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.tabblesDebug|Any CPU.ActiveCfg = tabblesDebug|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.tabblesDebug|Any CPU.Build.0 = tabblesDebug|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.TabblesRelease|Any CPU.ActiveCfg = TabblesRelease|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.TabblesRelease|Any CPU.Build.0 = TabblesRelease|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.TestandoWcf|Any CPU.ActiveCfg = TestandoWcf|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.TestandoWcf|Any CPU.Build.0 = TestandoWcf|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.testandoWcfAsync|Any CPU.ActiveCfg = testandoWcfAsync|Any CPU
+		{D489947C-DA48-48B8-9BB0-AD1673DFF417}.testandoWcfAsync|Any CPU.Build.0 = testandoWcfAsync|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.tabblesDebug|Any CPU.ActiveCfg = tabblesDebug|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.tabblesDebug|Any CPU.Build.0 = tabblesDebug|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.TabblesRelease|Any CPU.ActiveCfg = TabblesRelease|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.TabblesRelease|Any CPU.Build.0 = TabblesRelease|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.TestandoWcf|Any CPU.ActiveCfg = TestandoWcf|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.TestandoWcf|Any CPU.Build.0 = TestandoWcf|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.testandoWcfAsync|Any CPU.ActiveCfg = TestandoWcf|Any CPU
+		{A77EA843-20F5-4A0B-9C93-5385B6D2ACD1}.testandoWcfAsync|Any CPU.Build.0 = TestandoWcf|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3A1ECB3-37A2-4103-A20A-7F2A37A52E43}
+	EndGlobalSection
+	GlobalSection(NDepend) = preSolution
+		Project = ""
+	EndGlobalSection
+EndGlobal

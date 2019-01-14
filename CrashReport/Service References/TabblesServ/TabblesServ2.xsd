@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://tag-fs.com.iis3004.databasemart.net/updateservice/TabblesServ.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/UpdatesWebService" />
+  <xs:element name="GetTabbles4NewVersionData">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTabbles4NewVersionDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/UpdatesWebService" minOccurs="0" name="GetTabbles4NewVersionDataResult" nillable="true" type="q1:Tabbles4NewVersionData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTabbles4CloudSqlServerData">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTabbles4CloudSqlServerDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/UpdatesWebService" minOccurs="0" name="GetTabbles4CloudSqlServerDataResult" nillable="true" type="q2:Tabbles4CloudSqlServerData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetYellowBlueSoftServer">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetYellowBlueSoftServerResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/UpdatesWebService" minOccurs="0" name="GetYellowBlueSoftServerResult" nillable="true" type="q3:serverData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewVersionData">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewVersionDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/UpdatesWebService" minOccurs="0" name="GetNewVersionDataResult" nillable="true" type="q4:NewVersionData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendCrashEmail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="emailBody" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendCrashEmailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SendCrashEmailResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendEmail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="emailBody" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="subject" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendEmailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SendEmailResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="writeReportToDb">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stackTrace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="isCloud" nillable="true" type="xs:boolean" />
+        <xs:element minOccurs="0" name="license" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="codeVersion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="strCrashId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="windowsUser" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="machineName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="crashDialogWasShown" nillable="true" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="writeReportToDbResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="writeReportToDbResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

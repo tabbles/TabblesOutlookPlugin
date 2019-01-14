@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/UpdatesWebService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/UpdatesWebService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Tabbles4NewVersionData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="betaNumber" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="buildDateOfLatestVersion" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="changeLog" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="customText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="latestVersion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="urlCompleteChangelog" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="urlToDownloadLatest" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Tabbles4NewVersionData" nillable="true" type="tns:Tabbles4NewVersionData" />
+  <xs:complexType name="Tabbles4CloudSqlServerData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="SqlLoginName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SqlLoginPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SqlServerAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SqlServerDatabaseName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SqlServerPort" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UrlForgottenPasswordCloud" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UrlRegisterCloud" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Tabbles4CloudSqlServerData" nillable="true" type="tns:Tabbles4CloudSqlServerData" />
+  <xs:complexType name="serverData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="server" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="serverData" nillable="true" type="tns:serverData" />
+  <xs:complexType name="NewVersionData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="betaNumber" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="buildDateOfLatestVersion" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="changeLog" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="customText" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="latestVersion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="urlCompleteChangelog" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="urlToDownloadLatest32bit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="urlToDownloadLatest64bit" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="urlToDownloadLatestPortable" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NewVersionData" nillable="true" type="tns:NewVersionData" />
+</xs:schema>
