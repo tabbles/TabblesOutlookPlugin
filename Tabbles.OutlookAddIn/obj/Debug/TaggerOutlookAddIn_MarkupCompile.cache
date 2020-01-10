@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\bario\Documents\Source\TabblesOutlookPlugin\Tabbles.OutlookAddIn\obj\Debug\
+C:\Users\bario\Documents\Source\Tabbles-Outlook-addin\Tabbles.OutlookAddIn\obj\Debug\
 Tabbles.OutlookAddIn
 none
 false
@@ -13,7 +13,7 @@ VSTO40;DEBUG;TRACE
 5-97971129
 
 25372951842
-31-2039954386
+31-1390035815
 Controls\PromptDialog.xaml;Controls\SyncConfirmation.xaml;Controls\SyncProgress.xaml;Controls\WindowChooseFolders.xaml;progress.xaml;
 
 False
