@@ -20,3 +20,13 @@ C:\Users\bario\Desktop\Outlook_Open_Source\CrashReportFsharp\obj\Debug\CrashRepo
 C:\Users\bario\Desktop\Outlook_Open_Source\CrashReportFsharp\obj\Debug\CrashReportFsharp.fsproj.CopyComplete
 C:\Users\bario\Desktop\Outlook_Open_Source\CrashReportFsharp\obj\Debug\CrashReportFsharp.dll
 C:\Users\bario\Desktop\Outlook_Open_Source\CrashReportFsharp\obj\Debug\CrashReportFsharp.pdb
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\bin\Debug\CrashReportFsharp.XML
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\bin\Debug\CrashReportFsharp.dll
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\bin\Debug\CrashReportFsharp.pdb
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\bin\Debug\CrashReport.dll
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\bin\Debug\CrashReport.pdb
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\bin\Debug\CrashReport.dll.config
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\obj\Debug\CrashReportFsharp.fsprojAssemblyReference.cache
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\obj\Debug\CrashReportFsharp.fsproj.CopyComplete
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\obj\Debug\CrashReportFsharp.dll
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReportFsharp\obj\Debug\CrashReportFsharp.pdb

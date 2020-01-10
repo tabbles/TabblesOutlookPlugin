@@ -12,3 +12,9 @@ C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\obj\Debug\CrashReport.csp
 C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\obj\Debug\CrashReport.dll
 C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\obj\Debug\CrashReport.pdb
 C:\Users\bario\Desktop\Outlook_Open_Source\CrashReport\obj\Debug\CrashReport.csprojAssemblyReference.cache
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReport\bin\Debug\CrashReport.dll.config
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReport\bin\Debug\CrashReport.dll
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReport\bin\Debug\CrashReport.pdb
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReport\obj\Debug\CrashReport.csprojAssemblyReference.cache
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReport\obj\Debug\CrashReport.dll
+C:\Users\bario\Documents\Source\TabblesOutlookPlugin\CrashReport\obj\Debug\CrashReport.pdb

@@ -15,14 +15,14 @@
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
           UAC Manifest Options
-          If you want to change the Windows User Account Control level replace the 
+          If you want to change the Windows User Account Control level replace the
           requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         If you want to utilize File and Registry Virtualization for backward 
+         If you want to utilize File and Registry Virtualization for backward
          compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
@@ -149,7 +149,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VR3KlWuYjuAfGB5acubuLORAz9SBfBmyFA9T4wOnt/U=</dsig:DigestValue>
+        <dsig:DigestValue>a0fTcnxRATYMUxgx/fFHLsnM8343AcuvUBsORzgWFT8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -161,7 +161,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>FFgn6qTwsbxMvkoyWNlUeT/uNWkmh2iToxlYhs99PWY=</dsig:DigestValue>
+        <dsig:DigestValue>168o+BqCzt1bNQ5LML2ekEWvOKa3iTcvfh5irs7geE8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -238,14 +238,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TaggerOutlookAddIn.dll" size="144384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TaggerOutlookAddIn.dll" size="143872">
       <assemblyIdentity name="TaggerOutlookAddIn" version="4.1.13.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>60uXbphd3C+MyJengQGmnapE/zak1aO9tkWso+QCj04=</dsig:DigestValue>
+        <dsig:DigestValue>ZPJEpEuy0r0mcti8cFQ0VDX1KaHAVZwL1e/i388DN0U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -257,7 +257,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dJbMJMElHb+tSy703L0gAf/kG/BBoBPeLzMdpDPobRE=</dsig:DigestValue>
+        <dsig:DigestValue>APPI51dd6u4l8Eifoozm4xJT4++hAhtnnni1vw23E+w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -284,4 +284,4 @@
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=PC-GRANDE\mauri" issuerKeyHash="49143cb8c7a2cc3bda31d745f03e8b0b9a11a61b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZILkWsKdlf7dPFiR0VriFA773oIGNg4XqO1WOTfwrU8=</DigestValue></Reference></SignedInfo><SignatureValue>irC9gyvS/QLYN4bnCxvnbX8dVVkCgb3uV1elb+pVs4QnnMJsagCket4eaZcHVPspZPgS1ieMoZXX1siJU0w3S3iiN/FCM/1+//C5UHsohR5vFjhD682pf2RuJTIlX0uBF9eiS3ZTmY9Z0EKTIo8FVGM+r004Jxjqin5f+7J3grs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tX+w94DQkb9dqxmtUIMOaSKXMofjOdyal9T4dQFWy/975hObAx7e2iPWbUfrhUGHPIzyfSXaU48E0OHBGYgTApjOAbm+49yWyIWk0XGc0ggJM/sS1L32jD4A5tvCwPo/yTqtKq+wE6py1+xeXnF51YDI7pXLYh3A0ifj40riLzE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4fadf0373956eda8170e360682defb0e14e25ad191583cddfe959dc25ae48264" Description="" Url=""><as:assemblyIdentity name="TaggerOutlookAddIn.dll" version="1.0.0.0" publicKeyToken="bb6cbdf588ded29f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-GRANDE\mauri</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mA5gw+0rsLPj7K6OtrnHcf4YUlVbJbf8iyxcZLHoAXQ=</DigestValue></Reference></SignedInfo><SignatureValue>al7zzv+qo+etpqNKB0OBsBUts92cudMO0LAmmisVXf1LYZkm99gaMnWkMivGzknUNlrjiOvDJoaY8yUCiE3c89B9JCjRyf7iG6GRTzu24u2+rkLjIP5KjaeYA7+p0oiDlyKId9nEHYq418nz90vZ4SGLeCmbj7EinmDgqMxKWAI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tX+w94DQkb9dqxmtUIMOaSKXMofjOdyal9T4dQFWy/975hObAx7e2iPWbUfrhUGHPIzyfSXaU48E0OHBGYgTApjOAbm+49yWyIWk0XGc0ggJM/sS1L32jD4A5tvCwPo/yTqtKq+wE6py1+xeXnF51YDI7pXLYh3A0ifj40riLzE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQXtCU/XJnh6JEKrfVbyJZVzANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUABDAC0ARwBSAEEATgBEAEUAXABtAGEAdQByAGkwHhcNMTcwNzExMTM1MTU1WhcNMTgwNzExMTk1MTU1WjApMScwJQYDVQQDHh4AUABDAC0ARwBSAEEATgBEAEUAXABtAGEAdQByAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALV/sPeA0JG/XasZrVCDDmkilzKH4zncmpfU+HUBVsv/e+YTmwMe3toj1m1H64VBhzyM8n0l2lOPBNDhwRmIEwKYzgG5vuPclsiFpNFxnNIICTP7EtS99ow+AObbwsD6P8k6rSqvsBOqctfsXl5xedWAyO6Vy2IdwNIn4+NK4i8xAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAImB7z3KvY6i8J6/kJxZHn3+oq7Z/b6FqwVayddaedpyl5jYUXrZQfnHasr3MVCXcZrGaFKugV/xTCRVn39mKTnO5rYSBx4tTyvVO9ie/EvJVor+DPhhcQb9Ji8G6VJg+eSAIyJIXi5XkFJpCD+L/FYuZBZpLrTWTJ4ukj0T4IJQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=PC-GRANDE\mauri" issuerKeyHash="49143cb8c7a2cc3bda31d745f03e8b0b9a11a61b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MVjES+6AaXKUw4SZ2gm8eqgBzDrwNBYCYKFIUQZrpEk=</DigestValue></Reference></SignedInfo><SignatureValue>IGzJ+ISkMnSde6i+aD5xw1LhqLM+RwW0NW5kO5s2kKimyHLn6QbNNraOJBZWDyxQnNQmCHAIV7yRXh2TIF5EKZkC0xVKvypRj6RJ370y6Flo8vOcMxTApXv9tmZea0CenvrFmeAyn6Ur6nJnJnfubOyaJ8MsdcbCnBr8l85w7+E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tX+w94DQkb9dqxmtUIMOaSKXMofjOdyal9T4dQFWy/975hObAx7e2iPWbUfrhUGHPIzyfSXaU48E0OHBGYgTApjOAbm+49yWyIWk0XGc0ggJM/sS1L32jD4A5tvCwPo/yTqtKq+wE6py1+xeXnF51YDI7pXLYh3A0ifj40riLzE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="49a46b065148a160021634f03acc01a87abc09da9984c394726980ee4bc45831" Description="" Url=""><as:assemblyIdentity name="TaggerOutlookAddIn.dll" version="1.0.0.0" publicKeyToken="bb6cbdf588ded29f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-GRANDE\mauri</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>22A0uJ4N6NtSMR/aTl2wKDHYVscN9KNb0et88BmVGpQ=</DigestValue></Reference></SignedInfo><SignatureValue>F0IE440T+ApvHYu/DT+p1NJVK+YYL0GugTn1VYLSPAlyX7W5kKNzZkV4nD4rR/zW+52w/wxHSpIY7LU3DJ3QjJbLSHeOsz9ZGpHUWAdXhh1/WOgw4ioawwrvFcWALAGcFWtB+ZBZEfLk2YTejdEjuIq+OVDIeQP9JMCtf+BsAJg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tX+w94DQkb9dqxmtUIMOaSKXMofjOdyal9T4dQFWy/975hObAx7e2iPWbUfrhUGHPIzyfSXaU48E0OHBGYgTApjOAbm+49yWyIWk0XGc0ggJM/sS1L32jD4A5tvCwPo/yTqtKq+wE6py1+xeXnF51YDI7pXLYh3A0ifj40riLzE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQXtCU/XJnh6JEKrfVbyJZVzANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUABDAC0ARwBSAEEATgBEAEUAXABtAGEAdQByAGkwHhcNMTcwNzExMTM1MTU1WhcNMTgwNzExMTk1MTU1WjApMScwJQYDVQQDHh4AUABDAC0ARwBSAEEATgBEAEUAXABtAGEAdQByAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALV/sPeA0JG/XasZrVCDDmkilzKH4zncmpfU+HUBVsv/e+YTmwMe3toj1m1H64VBhzyM8n0l2lOPBNDhwRmIEwKYzgG5vuPclsiFpNFxnNIICTP7EtS99ow+AObbwsD6P8k6rSqvsBOqctfsXl5xedWAyO6Vy2IdwNIn4+NK4i8xAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAImB7z3KvY6i8J6/kJxZHn3+oq7Z/b6FqwVayddaedpyl5jYUXrZQfnHasr3MVCXcZrGaFKugV/xTCRVn39mKTnO5rYSBx4tTyvVO9ie/EvJVor+DPhhcQb9Ji8G6VJg+eSAIyJIXi5XkFJpCD+L/FYuZBZpLrTWTJ4ukj0T4IJQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
